@@ -1,0 +1,40 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Go =====
+/bin/
+/dist/
+*.exe
+*.out
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Virtual environments =====
+venv/
+.venv/
+env/
+
+# ===== Playwright =====
+playwright-report/
+test-results/
+trace.zip
+
+# ===== Node / Playwright driver =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===== Environment variables =====
+.env
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
